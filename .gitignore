@@ -1,0 +1,5 @@
+liferay-document-library/**
+!liferay-document-library/.keep
+docker-compose/liferay-files/deploy/*.xml
+liferay-deploy/**
+!liferay-deploy/.keep
