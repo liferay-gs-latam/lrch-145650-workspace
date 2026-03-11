@@ -57,7 +57,7 @@ com.liferay.configuration.admin.web.internal.category.CaptchaConfigurationCatego
 com.liferay.captcha.rest.internal.resource.v1_0.OpenAPIResourceImpl in bundle 557 (com.liferay.captcha.rest.impl:1.0.13) enabled, 1 instance.
 ```
 
-Access http://localhost:8080/, and go to Control Panel -> System Settings -> Security Tools -> CAPTCHA and click in the "UPDATE" button at the end of the page.
+Access http://localhost:8080/, and go to **Control Panel -> System Settings -> Security Tools -> CAPTCHA** and click in the "UPDATE" button at the end of the page.
 
 Go back to gogo shell and execute `scr:list | grep -i captcha` again, the result should be something like:
 
